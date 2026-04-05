@@ -1,6 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Your Name</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
-  Hey! This is changed
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav__logo">YN.</span>
+    <ul class="nav__links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__tag">Available for work</div>
+    <h1 class="hero__headline">
+      Design &amp; code,<br />
+      <span class="hero__headline--muted">built with intent.</span>
+    </h1>
+    <p class="hero__sub">Full-stack developer based in Melbourne. I build clean, purposeful digital products.</p>
+    <div class="hero__actions">
+      <a href="#work" class="btn btn--primary">See my work</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+    <div class="hero__scroll-hint">
+      <span class="hero__scroll-line"></span>
+      <span class="hero__scroll-label">Scroll</span>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="section__header">
+      <span class="section__number">01</span>
+      <h2 class="section__title">Selected Work</h2>
+    </div>
+
+    <div class="grid">
+
+      <article class="card card--wide">
+        <div class="card__thumb card__thumb--a"></div>
+        <div class="card__body">
+          <div class="card__meta">
+            <span class="chip">Web App</span>
+            <span class="chip">2024</span>
+          </div>
+          <h3 class="card__title">Project Alpha</h3>
+          <p class="card__desc">A short description of the project and what problem it solves. Keep it punchy.</p>
+          <a href="#" class="card__link">View case study &rarr;</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__thumb card__thumb--b"></div>
+        <div class="card__body">
+          <div class="card__meta">
+            <span class="chip">UI Design</span>
+            <span class="chip">2024</span>
+          </div>
+          <h3 class="card__title">Project Beta</h3>
+          <p class="card__desc">Short description of this project and its outcome.</p>
+          <a href="#" class="card__link">View case study &rarr;</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__thumb card__thumb--c"></div>
+        <div class="card__body">
+          <div class="card__meta">
+            <span class="chip">Mobile</span>
+            <span class="chip">2023</span>
+          </div>
+          <h3 class="card__title">Project Gamma</h3>
+          <p class="card__desc">Short description of this project and its outcome.</p>
+          <a href="#" class="card__link">View case study &rarr;</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section section--alt" id="about">
+    <div class="section__header">
+      <span class="section__number">02</span>
+      <h2 class="section__title">About</h2>
+    </div>
+
+    <div class="about">
+      <div class="about__bio">
+        <p>I'm a developer and designer who cares about the craft. I work across the full stack with a lean toward clean interfaces and well-structured systems.</p>
+        <p>Currently studying at Australian College of Engineering while working on personal and freelance projects.</p>
+        <a href="#" class="btn btn--primary">Download resume</a>
+      </div>
+
+      <div class="about__skills">
+        <div class="skill-group">
+          <h4 class="skill-group__label">Development</h4>
+          <ul class="skill-list">
+            <li>HTML / CSS / JS</li>
+            <li>Python</li>
+            <li>Node.js</li>
+            <li>React</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group__label">Tools</h4>
+          <ul class="skill-list">
+            <li>Figma</li>
+            <li>Git / GitHub</li>
+            <li>VS Code</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group__label">Interests</h4>
+          <ul class="skill-list">
+            <li>Cybersecurity</li>
+            <li>Network Design</li>
+            <li>UI / UX</li>
+            <li>Creative Coding</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section__header">
+      <span class="section__number">03</span>
+      <h2 class="section__title">Contact</h2>
+    </div>
+
+    <div class="contact">
+      <p class="contact__line">Have a project in mind? Let's talk.</p>
+      <a href="mailto:hello@yourname.com" class="contact__email">hello@yourname.com</a>
+      <div class="contact__socials">
+        <a href="#" class="social-link">GitHub</a>
+        <a href="#" class="social-link">LinkedIn</a>
+        <a href="#" class="social-link">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>Built by Your Name &mdash; 2025</span>
+    <span class="footer__back"><a href="#">Back to top &uarr;</a></span>
+  </footer>
+
 </body>
+</html>
