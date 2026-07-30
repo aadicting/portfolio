@@ -1,7 +1,6 @@
 # Home Network Overview & Troubleshooting Guide
 
-Author: Aadi
-Date: [fill in]
+Author: Aditya Khanna
 
 ## 1. Purpose
 
@@ -11,8 +10,8 @@ Short overview of your home network setup and connectivity testing performed for
 
 | Item | Value |
 |---|---|
-| WAN IP (public) | [check whatismyip.com or router admin page] |
-| Router LAN IP | [e.g. 192.168.1.1] |
+| WAN IP (public) | 101.119.145.21 |
+| Router LAN IP |  |
 | LAN IP range | [e.g. 192.168.1.0/24] |
 | DHCP range | [e.g. 192.168.1.100 - 192.168.1.200] |
 | DNS server(s) | [e.g. 1.1.1.1, 192.168.1.1] |
